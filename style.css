@@ -76,11 +76,16 @@ body{
 
 .hero__cta{
 	display: inline-block;
-	background: var(--color-btn);
 	color: #fff;
 	padding: var(--padding-btn);
 	text-align: center;
 	text-decoration: none;
+	box-shadow:  11px 11px 22px #7a7a7a,
+             -11px -11px 22px #a4a4a4;
+    border-radius: 10px;
+    background: #28407e;
+	box-shadow:  11px 11px 22px #9fc3bf,
+             -11px -11px 22px #d7ffff;
 }
 
 .hero__img{
